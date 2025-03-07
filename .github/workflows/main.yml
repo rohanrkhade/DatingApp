@@ -1,8 +1,9 @@
 name: Rohan
 
 on:
-  workflow_dispatch:
-  status: test
+  push:
+    branches:
+      - master
 
 jobs:
   build-and-test:
