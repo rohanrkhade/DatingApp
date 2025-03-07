@@ -1,12 +1,8 @@
 name: Rohan
 
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+  workflow_dispatch:
+  status: test
 
 jobs:
   build-and-test:
